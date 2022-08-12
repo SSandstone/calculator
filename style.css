@@ -1,0 +1,128 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:95vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+
+.header {
+    display:flex;
+    padding:10px;
+    align-items: center;
+    gap:6px;
+    justify-content: space-around;
+   }
+
+   .header, .footer{
+    background-color: #1f2937;
+    width:100%;
+}
+
+#goBack {
+    margin:12px 36px 12px auto;
+    font-size:2em;
+}
+
+.footer {
+    display: flex;
+    padding:10px;
+    color: aliceblue;
+    justify-content: center;
+    margin-top:auto;
+}
+
+.header-title {
+    color:aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.output{
+    font-size: xx-large;
+    font-weight: bolder;
+    height: 4em;
+    width:400px;
+    border:1px solid lightgray;
+}
+
+.equation{
+    font-size: large;
+    height: 2em;
+    width:500px;
+}
+
+.calculator, .display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+}
+
+.calc-grid{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+}
+
+.operators{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.numbers, .functions{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;
+    justify-items: center;
+}
+
+.functions{
+    display: flex;
+    justify-content: space-around;
+    gap: 75px;
+    margin:5px;
+    text-align: center;
+}
+
+.function{
+    background-color: lightslategray;
+    border-radius: 5px;
+}
+
+.calcBtn{
+    margin:1px;
+    padding:5px;
+    border:1px solid darkgrey;
+    width:3em;
+    height:3em;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.number{
+ background-color: lightskyblue;
+ border-radius: 5px;
+}
+
+.operator{
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+
+.output{
+    display:flex;
+    margin: 2px;
+    background-color: aliceblue;
+    height:2em;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+}
